@@ -1,0 +1,3 @@
+logic.js er med stor L på orginal så kan være problem på index
+
+local hoast på backend og front
