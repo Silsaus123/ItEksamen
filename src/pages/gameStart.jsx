@@ -25,7 +25,7 @@ export default function GameStart({x, setX, gamerun, setGamerun, time, setTime, 
       const sendScoreToServer = async () => {
         try {
           console.log(x +" | " + userId)
-          const response = await fetch("http://localhost:8081/updateScore", {
+          const response = await fetch("/API/updateScore", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",

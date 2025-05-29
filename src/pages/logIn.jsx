@@ -12,7 +12,7 @@ export default function LogIn({ setUserId, userId}) {
     }
 
     try {
-      const response = await fetch("http://localhost:8081/addUser", {
+      const response = await fetch("/API/addUser", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
