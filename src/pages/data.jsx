@@ -6,7 +6,7 @@ export default function DataTable() {
   const [leaderboard, setLeaderboard] = React.useState([]);
 
   React.useEffect(() => {
-    fetch("/API/")
+    fetch("/api/")
       .then((res) => res.json())
       .then((data) => {
         setLeaderboard(data.leaderboard); // Use the new key
