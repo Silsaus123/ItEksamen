@@ -6,6 +6,7 @@ export default function Faq() {
   return (
     <div>
       <h1>Frequently Asked</h1>
+      <p>LALALAL</p>
       <div className="FaqButton">
         <Link to="/">Home</Link>
       </div>
