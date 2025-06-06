@@ -15,8 +15,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Router>
       <Routes>
 
-        <Route path="/" element={<IndexPage />} />
-        <Route path="/faq" element={<Faq />} />
+        <Route path="/" element={<IndexPage />} />   
+        <Route path="/faq" element={<Faq/>} />
+        {/* route faq page */}
+        
       </Routes>
     </Router>
 

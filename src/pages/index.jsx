@@ -51,7 +51,8 @@ const IndexPage = () => {
         <DataTable />
       </div>
       <div className="FaqButton">
-        <Link to="/faq">Go to FAQ</Link>  
+        <link to ="/faq">Go to FAQ</link>
+        {/* link faq knap og skriv*/}
       </div>
     </div>
     </div>
